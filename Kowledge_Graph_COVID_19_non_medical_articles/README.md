@@ -146,26 +146,6 @@ Traditional keyword search and document retrieval methods fall short because the
 
 ---
 
-## 📚 Example Query Patterns
-
-```cypher
-// Find technology impact on business
-MATCH (t:MyGraph {Name: "technology"})-[r*1..2]-(b:MyGraph {Name: "business"})
-RETURN t, r, b
-
-// Most influential entities
-MATCH (n:MyGraph)-[r]-()
-RETURN n.Name, COUNT(r) AS connections
-ORDER BY connections DESC LIMIT 10
-
-// Discovery paths between concepts
-MATCH path = (a:MyGraph)-[*1..3]-(b:MyGraph)
-WHERE a.Name = "pandemic" AND b.Name = "economy"
-RETURN path
-```
-
----
-
 ## 📝 Bottom Line
 
 This project demonstrates how NLP and graph databases can transform unstructured pandemic-related text into structured, queryable knowledge - making sense of information overload and enabling insights impossible through traditional search methods.
