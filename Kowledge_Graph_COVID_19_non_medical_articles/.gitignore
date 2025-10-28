@@ -1,1 +1,36 @@
+# Local edits not required on git public
 /OnlyLocal
+
+# Data
+data/raw/*
+data/processed/*
+*.csv
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Neo4j
+*.db
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Environment
+.env
+.vscode/
+.idea/
+
+# Outputs
+outputs/csv/*
+outputs/graphs/*
+outputs/visualizations/*
+!.gitkeep
