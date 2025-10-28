@@ -15,7 +15,7 @@
 
 ---
 ## Project Flowchart:
-![alt text]([Flowchart.png)](https://github.com/dnyanai/Natural-Language-Processing/blob/main/Kowledge_Graph_COVID_19_non_medical_articles/Imgs/Flowchart.png)
+![Project Workflow](https://github.com/dnyanai/Natural-Language-Processing/blob/main/Kowledge_Graph_COVID_19_non_medical_articles/Imgs/Flowchart.png)
 
 ## 🔑 Key Problem Solved
 
